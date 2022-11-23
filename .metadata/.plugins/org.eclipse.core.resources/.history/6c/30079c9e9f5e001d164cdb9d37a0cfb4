@@ -1,0 +1,4 @@
+server.port=7835
+
+eureka.client.register-with-eureka=false
+

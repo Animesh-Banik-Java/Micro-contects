@@ -1,0 +1,23 @@
+UserService- 
+	server.port=9002
+	
+	/user/1002
+
+
+ContactService-
+	  server.port=9002
+
+ApiGateway-
+	server:
+	  port: 9999
+
+
+Eureka server- 
+	server.port=8761
+
+	eureka.client.register-with-eureka=false
+
+	eureka.client.fetch-registry=false
+
+	eureka.server.wait-time-in-ms-when-sync-empty=0
+
